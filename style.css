@@ -1,0 +1,814 @@
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: DM Sans;
+
+}
+
+header,
+main
+ {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+.toptable {
+    height: 90px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1280px;
+
+
+}
+
+.leftblock {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+
+.navigation li {
+    margin-right: 33px;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 36.4444px;
+    color: #000000;
+    z-index: 3;
+}
+
+
+.right-block {
+    display: flex;
+
+}
+
+.telefon {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.kartinki3 {
+    display: flex;
+    align-items: center;
+}
+
+.chelovek {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #F2F3F5;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serdce {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #F2F3F5;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.korzina {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #F2F3F5;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    width: 1280px;
+    margin: 0 auto 40px;
+    padding: 0 0 0 60px;
+}
+
+
+H1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 53px;
+    color: #000000;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 30px;
+
+}
+
+.pravajstorona {
+    width: 834px;
+    height: 484px;
+    background-image: url(./images/dvakolesa.png), url(./images/ten.png);
+    background-repeat: no-repeat;
+    background-position: -119px -10px, -7px 322px;
+}
+
+
+.card-text {
+    padding: 0 20px;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.input {
+    display: flex;
+    height: 64px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto 80px;
+}
+
+.section2 .container {
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+.card {
+    display: flex;
+    background: #FFFFFF;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    height: 140px;
+    margin-right: 21px;
+    align-items: center;
+}
+
+.card:last-child { 
+    margin-right: 0px;
+
+}
+
+.tittle {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.paragraf {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.shyna {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    overflow: hidden;
+}
+
+
+
+.rul {
+    width: 159px;
+    height: 139px;
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    overflow: hidden;
+}
+
+.section3 {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto 132px;
+}
+
+
+.aside {
+    height: 732px;
+    width: 380px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.blocksinij {
+    display: flex;
+    align-items: center;
+    background: #4200FF;
+    border-radius: 5px;
+    height: 76px;
+    width: 358px;
+    position: relative;
+    left: 9px;
+    top: 8px;
+    padding: 0 22px;
+
+}
+
+.smallkoleso {
+    height: 36px;
+    width: 36px;
+    margin-right: 19px;
+}
+
+.Shinalar {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 159px;
+
+}
+
+.Blockserij {
+    display: flex;
+    align-items: center;
+    padding: 0 31px;
+    height: 76px;
+
+}
+
+
+
+.Rullar {
+    font-weight: 500;
+    font-size: 22px;
+    color: #050303;
+    margin-right: 184px;
+}
+
+.smallrul {
+    height: 36px;
+    width: 36px;
+    margin-right: 19px;
+}
+
+.Blockserij2 {
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+    padding: 0 0 0 19px;
+    margin-bottom: 38px;
+}
+
+.Orindiqlar {
+    font-weight: 500;
+    font-size: 22px;
+    color: #050303;
+    margin-right: 139px;
+}
+
+.kreslosmall {
+    height: 40px;
+}
+
+.blocksinij .strelka {
+    color: white;
+}
+
+.Blockserij3 {
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+    padding: 0 0 0 31px;
+}
+
+.Akkumlyatorlar {
+    font-weight: 500;
+    font-size: 22px;
+    color: #050303;
+    margin-right: 90px;
+}
+
+.smallakum {
+    height: 36px;
+    width: 36px;
+    margin-right: 12px;
+}
+
+.tirescard {
+    height: 356px;
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.tirescard:last-child  { 
+    margin-bottom: 0px;
+}
+
+.tirescard:nth-child(5) {
+    margin-bottom: 0px;
+
+}
+
+.tirescard:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+
+
+.tiresblock {
+    height: 229px;
+    width: 278px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tires {
+    width: 128px;
+    height: 186px;
+}
+
+.textcard {
+    width: 222px;
+    padding: 0 0 0 20px;
+    margin-bottom: 24px;
+
+}
+
+.zvezdy {
+    padding: 0 0 0 20px;
+    color: yellow;
+    display: flex;
+    width: 92px;
+    height: 16px;
+}
+
+.price {
+    font-size: 20px;
+    line-height: 23px;
+    color: #4200FF;
+    width: 63px;
+    height: 23px;
+    justify-content: space-between;
+}
+
+.botttom-star-price {
+    display: flex;
+    justify-content:space-between ;
+    width: 270px;
+}
+
+.pravyjblok {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+.car {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 214px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tele {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 161px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Time {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 214px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5 {
+    display: flex;
+    height: 358px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    width: 1280px;
+    margin: auto;
+}
+
+.middle-levyj-blok {
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding: 0 0 0 40px;
+}
+
+.tesktmiddle h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    width: 530px;
+}
+
+
+.tesktmiddle {
+    margin-bottom: 54px;
+}
+
+.buttonmiddle {
+    width: 100px;
+    
+}
+
+.buttonteskt {
+    font-size: 28px;
+    line-height: 36px;
+    width: 145px;
+    height: 50px;
+    color: #000000;
+    border-radius: 7px;
+    
+}
+
+.pravyj-blok-middle {
+    width: 1000px;
+    height: 100%;
+    background-image: url(./images/carbig.png)
+}
+
+.tittleleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto 40px;
+}
+
+.tittleleft h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    width: 329px;
+    height: 42px;
+    margin-bottom: 0px;
+    margin-right: 804px;
+}
+
+.tittleleft p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 0px;
+    
+}
+
+.section6 {
+    margin-bottom: 80px;
+}
+
+.section7 {
+    height: 356px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.cardnabor {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.meniucards {
+    height: 356px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.instrumenty  {
+    height: 229px;
+    width: 303px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+.section8 
+{
+   margin-bottom: 120px;
+   margin: auto;
+    width: 1280px;
+}
+
+.block-name {
+    height: 461px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.tittle-Brendlar {
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.company-name {
+    height: 180px;
+    width: 298px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    
+}
+
+.text-audi {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.blok-audi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.blok-Mercedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 0 30px 0;
+}
+
+.blok-Daewoo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 30px 0;
+}
+
+.text-Daewoo {
+    padding: 11px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.blok-Hyundai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 30px 0;
+}
+
+.text-Hyundai {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    padding: 11px;
+
+    }
+
+.blok-tesla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0 0 0;
+    }
+
+.text-tesla {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    }
+
+.text-Toyota {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    }
+
+.blok-Toyota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0 0 0;
+    }
+
+
+.text-Ford {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    }
+
+.blok-Ford {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px 0 0 0;
+    }
+
+.text-Chevrolet {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    padding: 13px;
+    }
+
+.blok-Chevrolet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 0 0 0;
+    }
+
+    
+.footer-block {
+    width: 1440px;
+    height: 311px;
+    background: #2F2F2F;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 80px 100px 80px;
+  }
+
+.logo-footer  {
+    width: 93px;
+    height: 47px;
+    margin-bottom: 10px;
+    margin-right: 156px;
+
+}
+
+.tele-footer {
+    font-size: 16px;
+    line-height: 21px;    
+    color: #FFFFFF;
+    width: 147px;
+    
+}
+
+.Malumotlar {
+    width: 152px;
+    padding: 10px 0 0 0;
+    margin-right: 144px ;
+}
+
+.Malumotlar h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.meniu-footer1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    width: 216px;
+}
+
+.meniu-footer1 ul {
+    list-style-type: none;
+
+}
+
+.Biz-bilan-aloqa {
+    width: 180px;
+    padding: 10px 0 0 0;
+    margin-right: 286px;
+}
+
+.meniu-footer2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    width: 250px;
+    }
+
+.meniu-footer2 ul {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    }
+
+.Biz-bilan-aloqa h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+      }
+
+
+
+.name-footer {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footer-icon {
+    width: 146px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+
+.name-footer h4 {
+    margin-bottom: 20px;
+
+}
+
+.tirescard .botttom-star-price {
+    width: 250px;
+}
